@@ -1,5 +1,5 @@
 ---
-"":
+'':
   - octodns:
       cloudflare:
         auto-ttl: true
@@ -32,3 +32,7 @@ _gh-meeowscloud-o:
 sig1._domainkey:
   type: CNAME
   value: sig1.dkim.meeows.net.at.icloudmailadmin.com.
+
+isneru:
+  type: CNAME
+  value: diogonogueira-dev.vercel.app.
