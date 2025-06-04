@@ -1,0 +1,22 @@
+---
+providers:
+  config:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./
+    enforce_order: False
+  cloudflare:
+    class: octodns_cloudflare.CloudflareProvider
+    token: env/CLOUDFLARE_API_TOKEN
+    pagerules: False
+
+zones:
+  meeows.net.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  meeows.cloud.:
+    sources:
+      - config
+    targets:
+      - cloudflare

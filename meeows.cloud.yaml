@@ -1,0 +1,20 @@
+---
+"":
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  type: A
+  ttl: 300
+  values:
+    - 185.199.108.153
+    - 185.199.109.153
+    - 185.199.110.153
+    - 185.199.111.153
+
+_gh-meeowscloud-o:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  type: TXT
+  ttl: 300
+  value: 2e5383cb05
