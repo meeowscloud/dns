@@ -1,7 +1,7 @@
 # Meeows' DNS
 
-[![test](https://github.com/meeowscloud/dns/workflows/test/badge.svg)](https://github.com/meeowscloud/dns/actions?query=workflow%3Atest)
-[![deploy](https://github.com/meeowscloud/dns/workflows/deploy/badge.svg)](https://github.com/meeowscloud/dns/actions?query=workflow%3Adeploy)
+[![test](https://github.com/meeowscloud/dns/actions/workflows/test.yaml/badge.svg)](https://github.com/meeowscloud/dns/actions?query=workflow%3Atest)
+[![deploy](https://github.com/meeowscloud/dns/actions/workflows/deploy.yaml/badge.svg)](https://github.com/meeowscloud/dns/actions/workflows/deploy.yaml)
 
 This repository is used for managing Meeows' DNS configuration using [OctoDNS](https://github.com/octodns/octodns).
 
