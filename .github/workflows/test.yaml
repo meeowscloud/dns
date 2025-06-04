@@ -11,7 +11,7 @@ jobs:
         with:
           python-version: "3"
       - name: Install dependencies
-        run: pip install 'octodns==1.11.0'
+        run: pip install 'octodns==1.11.0' 'octodns-cloudflare==1.0.0'
       - name: Deploy DNS changes
         run: octodns-sync --config-file=./config/production.yaml
         env:
