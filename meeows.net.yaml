@@ -26,6 +26,10 @@ _gh-meeowscloud-o:
   ttl: 300
   value: d4305db41e
 
+isneru:
+  type: CNAME
+  value: diogonogueira-dev.vercel.app.
+
 sig1._domainkey:
   type: CNAME
   value: sig1.dkim.meeows.net.at.icloudmailadmin.com.
