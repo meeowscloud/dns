@@ -18,6 +18,14 @@
       - apple-domain=LnKfLaPhbX05lNBS
       - v=spf1 include:icloud.com ~all
 
+_atproto.diogo:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  type: TXT
+  ttl: 300
+  value: did=did:plc:muy2fal6odeostf47p6hdi5f
+
 _gh-meeowscloud-o:
   octodns:
     cloudflare:
