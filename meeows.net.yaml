@@ -15,7 +15,7 @@
         preference: 10
   - type: TXT
     values:
-      - apple-domain=LnKfLaPhbX05lNBS
+      - apple-domain=RSFim5Rvo4rsFVT9
       - v=spf1 include:icloud.com ~all
 
 _atproto.diogo:
